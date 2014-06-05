@@ -2,7 +2,7 @@ import newrelic.api
 import types
 from newrelic.api.database_trace import DatabaseTrace
 from newrelic.api.object_wrapper import wrap_object
-from lfcore.mongo.decoder import mongodb_decode_wire_protocol
+from .decoder import mongodb_decode_wire_protocol
 from logging import getLogger
 
 LOG = getLogger(__name__)
